@@ -8,8 +8,8 @@ CORS(app)
 
 app.config['MONGODB_SETTINGS'] = {
     'db': 'recursion',
-    'host': 'localhost',
-    'port': 27017
+    'host': 'https://recursion-mongodb.herokuapp.com'
+    # 'port': 27017
 }
 db = MongoEngine(app)
 
